@@ -144,22 +144,22 @@ public class ParamConversionTest {
 
     @org.junit.Test
     public void process19() {
-        assertEquals("11/30/2012", hm2.get("startdate1"));
+        assertEquals("12/01/2012", hm2.get("startdate1"));
     }
 
     @org.junit.Test
     public void process20() {
-        assertEquals("10/31/2017", hm2.get("enddate1"));
+        assertEquals("11/01/2017", hm2.get("enddate1"));
     }
 
     @org.junit.Test
     public void process21() {
-        assertEquals("03/31/2013", hm2.get("startdate2"));
+        assertEquals("04/01/2013", hm2.get("startdate2"));
     }
 
     @org.junit.Test
     public void process22() {
-        assertEquals("02/28/2018", hm2.get("enddate2"));
+        assertEquals("03/01/2018", hm2.get("enddate2"));
     }
 
     @org.junit.Test
